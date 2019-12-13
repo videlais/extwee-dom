@@ -1,13 +1,12 @@
 {
   "name": "extwee-dom",
   "version": "1.0.0",
-  "description": "Extwee-DOM is a browser-compatible Twee compiler supporting Twine 2-style formats using the Twee 3 specification.",
+  "description": "Extwee-DOM is a browser-compatible version of Extwee",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack ."
   },
   "repository": {
