@@ -1,0 +1,38 @@
+{
+  "name": "extwee-dom",
+  "version": "1.0.0",
+  "description": "Extwee-DOM is a browser-compatible Twee compiler supporting Twine 2-style formats using the Twee 3 specification.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/videlais/extwee-dom.git"
+  },
+  "keywords": [
+    "Twine",
+    "Twee",
+    "Extwee"
+  ],
+  "author": "Dan Cox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/videlais/extwee-dom/issues"
+  },
+  "homepage": "https://github.com/videlais/extwee-dom#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.10"
+  }
+}
