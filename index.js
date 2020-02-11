@@ -1,9 +1,9 @@
-const TweeParser = require('./src/TweeParser.js');
-const HTMLParser = require('./src/HTMLParser.js');
-const Story = require('./src/Story.js');
-const Passage = require('./src/Passage.js');
-const StoryFormat = require('./src/StoryFormat.js');
-const StoryFormatParser = require('./src/StoryFormatParser.js');
+import TweeParser from './src/TweeParser.js';
+import HTMLParser from './src/HTMLParser.js';
+import Story from './src/Story.js';
+import Passage from './src/Passage.js';
+import StoryFormat from './src/StoryFormat.js';
+import StoryFormatParser from './src/StoryFormatParser.js';
 
 window.extwee = {
   TweeParser: TweeParser,

@@ -1,13 +1,14 @@
 {
   "name": "extwee-dom",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Extwee-DOM is a browser-compatible version of Extwee",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "build": "webpack ."
+    "build": "webpack . --config webpack.config.cjs",
+    "lint": "eslint src/*.js --fix"
   },
   "repository": {
     "type": "git",
@@ -23,15 +24,25 @@
   "bugs": {
     "url": "https://github.com/videlais/extwee-dom/issues"
   },
-  "homepage": "https://github.com/videlais/extwee-dom#readme",
-  "dependencies": {
-    
+  "engines": {
+    "npm": ">=3.0",
+    "node": ">=6.0"
   },
+  "homepage": "https://github.com/videlais/extwee-dom#readme",
+  "dependencies": {},
   "devDependencies": {
-    "webpack": "^4.41.2",
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "babel-loader": "^8.0.6",
-    "webpack-cli": "^3.3.10"
-  }
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsdoc": "^21.0.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "type": "module"
 }
