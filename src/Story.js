@@ -1,4 +1,3 @@
-import pkg from './version.json';
 /**
  * @class Story
  * @module Story
@@ -21,8 +20,8 @@ class Story {
     this.passages = [];
 
     // Store the creator and version
-    this.creator = pkg.name;
-    this.creatorVersion = pkg.version;
+    this.creator = 'extwee-dom';
+    this.creatorVersion = '1.0.2';
   }
 
   /**
