@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/videlais/extwee-dom/workflows/Node.js%20CI/badge.svg)
+
 # Extwee-DOM 1.0.2
 
 Extwee-DOM is a browser-compatible verison of [Extwee](https://github.com/videlais/extwee).
