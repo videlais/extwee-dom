@@ -1,4 +1,4 @@
-# Extwee-DOM
+# Extwee-DOM 1.0.2
 
 Extwee-DOM is a browser-compatible verison of [Extwee](https://github.com/videlais/extwee).
 
@@ -67,8 +67,8 @@ The *Story* object holds all information about a Twine story including its metad
 * *name*: Name of the story. (Defaults to "Unknown").
 * *metadata*: Story metadata represented by `StoryData` passage in Twee 3
 * *passages*: Array of *Passage* objects.
-* *creator*: Set to `version.json` name (i.e. Exwee).
-* *creatorVersion*: Set to `version.json` version.
+* *creator*: Set to "extwee-dom".
+* *creatorVersion*: Set to version.
 
 #### Functions
 

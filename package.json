@@ -9,7 +9,7 @@
   "scripts": {
     "build": "webpack . --config webpack.config.cjs",
     "lint": "eslint src/*.js test/*.js --fix",
-    "test": "jest --coverage"
+    "test": "karmatic --coverage"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,6 @@
   },
   "homepage": "https://github.com/videlais/extwee-dom#readme",
   "dependencies": {
-    "eslint-plugin-jest": "^23.7.0",
-    "jest": "^25.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -47,7 +45,9 @@
     "eslint-plugin-standard": "^4.0.1",
     "karmatic": "^1.4.0",
     "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "eslint-plugin-jest": "^23.7.0",
+    "jest": "^25.1.0"
   },
   "type": "module"
 }
